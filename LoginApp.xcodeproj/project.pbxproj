@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		BA60FDAB2D1A9217001155B1 /* AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA60FDAB2D1A9217001155B1 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BA60FDBD2D1A9219001155B1 /* Exceptions for "AboutMeApp" folder in "AboutMeApp" target */ = {
+		BA60FDBD2D1A9219001155B1 /* Exceptions for "LoginApp" folder in "LoginApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
-			target = BA60FDAA2D1A9217001155B1 /* AboutMeApp */;
+			target = BA60FDAA2D1A9217001155B1 /* LoginApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BA60FDAD2D1A9217001155B1 /* AboutMeApp */ = {
+		BA60FDAD2D1A9217001155B1 /* LoginApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BA60FDBD2D1A9219001155B1 /* Exceptions for "AboutMeApp" folder in "AboutMeApp" target */,
+				BA60FDBD2D1A9219001155B1 /* Exceptions for "LoginApp" folder in "LoginApp" target */,
 			);
-			path = AboutMeApp;
+			path = LoginApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		BA60FDA22D1A9217001155B1 = {
 			isa = PBXGroup;
 			children = (
-				BA60FDAD2D1A9217001155B1 /* AboutMeApp */,
+				BA60FDAD2D1A9217001155B1 /* LoginApp */,
 				BA60FDAC2D1A9217001155B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		BA60FDAC2D1A9217001155B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA60FDAB2D1A9217001155B1 /* AboutMeApp.app */,
+				BA60FDAB2D1A9217001155B1 /* LoginApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA60FDAA2D1A9217001155B1 /* AboutMeApp */ = {
+		BA60FDAA2D1A9217001155B1 /* LoginApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA60FDBE2D1A9219001155B1 /* Build configuration list for PBXNativeTarget "AboutMeApp" */;
+			buildConfigurationList = BA60FDBE2D1A9219001155B1 /* Build configuration list for PBXNativeTarget "LoginApp" */;
 			buildPhases = (
 				BA60FDA72D1A9217001155B1 /* Sources */,
 				BA60FDA82D1A9217001155B1 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BA60FDAD2D1A9217001155B1 /* AboutMeApp */,
+				BA60FDAD2D1A9217001155B1 /* LoginApp */,
 			);
-			name = AboutMeApp;
+			name = LoginApp;
 			packageProductDependencies = (
 			);
 			productName = AboutMeApp;
-			productReference = BA60FDAB2D1A9217001155B1 /* AboutMeApp.app */;
+			productReference = BA60FDAB2D1A9217001155B1 /* LoginApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA60FDA62D1A9217001155B1 /* Build configuration list for PBXProject "AboutMeApp" */;
+			buildConfigurationList = BA60FDA62D1A9217001155B1 /* Build configuration list for PBXProject "LoginApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA60FDAA2D1A9217001155B1 /* AboutMeApp */,
+				BA60FDAA2D1A9217001155B1 /* LoginApp */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94GK89QS3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMeApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -159,7 +159,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Yakunin.Vladislav.AboutMeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Yakunin.Vladislav.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -180,7 +180,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 94GK89QS3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMeApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -192,7 +192,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Yakunin.Vladislav.AboutMeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Yakunin.Vladislav.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA60FDA62D1A9217001155B1 /* Build configuration list for PBXProject "AboutMeApp" */ = {
+		BA60FDA62D1A9217001155B1 /* Build configuration list for PBXProject "LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA60FDC12D1A9219001155B1 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA60FDBE2D1A9219001155B1 /* Build configuration list for PBXNativeTarget "AboutMeApp" */ = {
+		BA60FDBE2D1A9219001155B1 /* Build configuration list for PBXNativeTarget "LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA60FDBF2D1A9219001155B1 /* Debug */,

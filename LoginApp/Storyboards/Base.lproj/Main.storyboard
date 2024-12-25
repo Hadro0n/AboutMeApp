@@ -11,13 +11,13 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="4aS-Sf-hyU">
-                                <rect key="frame" x="45" y="189.5" width="230" height="189.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4aS-Sf-hyU">
+                                <rect key="frame" x="45" y="148" width="230" height="172.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="VH8-V4-VIz">
                                         <rect key="frame" x="0.0" y="0.0" width="230" height="146.5"/>
@@ -43,7 +43,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="FrD-MN-swx">
-                                        <rect key="frame" x="0.0" y="163.5" width="230" height="26"/>
+                                        <rect key="frame" x="0.0" y="146.5" width="230" height="26"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdH-yU-Orb">
                                                 <rect key="frame" x="0.0" y="0.0" width="113" height="26"/>
@@ -74,7 +74,7 @@
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
                             <constraint firstItem="4aS-Sf-hyU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="918-9g-0g9"/>
-                            <constraint firstItem="4aS-Sf-hyU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l1z-po-j9J"/>
+                            <constraint firstItem="4aS-Sf-hyU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="l1z-po-j9J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4aS-Sf-hyU" secondAttribute="trailing" constant="45" id="zXH-jE-gfk"/>
                         </constraints>
                     </view>
@@ -90,7 +90,7 @@
         <!--Home-->
         <scene sceneID="SmN-yt-1ai">
             <objects>
-                <viewController id="ll8-09-aAr" customClass="WelcomeViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ll8-09-aAr" customClass="WelcomeViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Smb-Kd-XAL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,7 +145,7 @@
         <!--Full name-->
         <scene sceneID="pka-Ww-8yf">
             <objects>
-                <viewController id="Agt-KC-TU6" customClass="UserCardViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Agt-KC-TU6" customClass="UserCardViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zG6-KN-l9z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -282,7 +282,7 @@
         <!--User Bio View Controller-->
         <scene sceneID="DHy-Hr-nYp">
             <objects>
-                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="udp-jU-J88" customClass="UserBioViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="udp-jU-J88" customClass="UserBioViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Uv-sQ-X3a">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -317,7 +317,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="ep6-4G-ngh">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wJL-GV-kZT" customClass="TabBarController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wJL-GV-kZT" customClass="TabBarController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pd6-hK-Rpm">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
